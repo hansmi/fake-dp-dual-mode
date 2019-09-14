@@ -1,0 +1,11 @@
+Source: fake-dp-dual-mode-dkms
+Section: kernel
+Priority: optional
+Maintainer: Michael Hanselmann <>
+Build-Depends: debhelper (>= 9), dkms
+Standards-Version: 3.9.5
+
+Package: fake-dp-dual-mode-dkms
+Architecture: all
+Depends: ${misc:Depends}
+Description: Kernel module to override DisplayPort mode detection
